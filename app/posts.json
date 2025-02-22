@@ -1,0 +1,23 @@
+[
+    {
+        "author": "Yaya Tangara",
+        "name": "First Post",
+        "description": "This is the first post in this blogging site made in PHP. This site aims to teach you some basic functions of the PHP language.",
+        "date": "09:44 - 21, Feb, 2025",
+        "link": "first-post"
+    },
+    {
+        "author": "Yaya Tangara",
+        "name": "Testing Post",
+        "description": "Hello world, this is a test post.",
+        "date": "18:02 - 22, Feb, 2025",
+        "link": "testing-post"
+    },
+    {
+        "author": "Yaya Tangara",
+        "name": "Testing Post",
+        "description": "Hello World, this post has the same name as an existing post.\r\nWe'll check if the unique id system in newPost.php applies and prevents overwriting.",
+        "date": "18:03 - 22, Feb, 2025",
+        "link": "testing-post-67ba036a3f97b"
+    }
+]

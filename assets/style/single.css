@@ -1,0 +1,23 @@
+@import url("./main.css");
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    gap: 1rem;
+}
+
+aside, section{
+    background-color: #fff;
+    box-shadow: 0 0 7.5px #dadada;
+    padding: 1rem 2rem;
+    min-width: 320px;
+}
+
+aside{
+    flex: 0 0 320px;
+}
+
+section{
+    flex: 1 1 calc(100% - 320px - 1rem);
+}

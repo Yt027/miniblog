@@ -1,0 +1,32 @@
+@import url("./main.css");
+
+main{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 7.5px #dadada;
+    padding: 1rem 0 0;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1{
+    margin: 0 3%;
+}
+
+.wrapper .post{
+    text-decoration: none;
+    display: block;
+    color: unset;
+    background-color: #ffffff;
+    padding: 1rem 3%;
+}
+.wrapper .post:nth-child(even){
+    background-color: #f8f8f8;
+}
+
+.wrapper .post:hover{
+    background-color: hsl(203, 30%, 95%);
+}
